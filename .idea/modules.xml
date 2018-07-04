@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/peregrine-backend.iml" filepath="$PROJECT_DIR$/.idea/peregrine-backend.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/BackEnd.iml" filepath="$PROJECT_DIR$/.idea/BackEnd.iml" />
+      <module fileurl="file://E:/ML Research/Research/peregrine-frontend/.idea/s3-upload.iml" filepath="E:/ML Research/Research/peregrine-frontend/.idea/s3-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../20 group classification/text-classification/.idea/text-classification.iml" filepath="$PROJECT_DIR$/../20 group classification/text-classification/.idea/text-classification.iml" />
+>>>>>>> 9b5f943caf074398a914d2d31a8bcee2822b2c6e
     </modules>
   </component>
 </project>
