@@ -16,6 +16,8 @@ export default function setRoutes(app: any) {
     router.route("/login").post(userCtrl.login);
     router.route("/login").post(userCtrl.login);
     router.route("/articles").get(userCtrl.getAllArticles);
+    router.route("/save").post(userCtrl.saveArticles);
+    router.route("/getAllsavedArticles").get(userCtrl.getAllsavedArticles);
     router.route("/test").post(articleCtrl.predictCategory);
 
     }
