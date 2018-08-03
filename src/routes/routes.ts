@@ -18,6 +18,8 @@ export default function setRoutes(app: any) {
     router.route("/articles").get(userCtrl.getAllArticles);
     router.route("/save").post(userCtrl.saveArticles);
     router.route("/getAllsavedArticles").get(userCtrl.getAllsavedArticles);
+    router.route("/summarizeArticles").post(userCtrl.summarize);
+    router.route("/deleteArticles/:id").delete(userCtrl.deleteArticles);
     router.route("/test").post(articleCtrl.predictCategory);
 
     }
