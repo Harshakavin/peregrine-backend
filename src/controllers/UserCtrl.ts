@@ -82,7 +82,7 @@ export default class UserCtrl  {
              if(err){
                   return res.status(401).json("Summrize cannot be done");
              }else {
-                 if(JSON.parse(body).sm_api_message = 'TEXT IS TOO SHORT2'){
+                 if(JSON.parse(body).sm_api_message === 'TEXT IS TOO SHORT2'){
                      return res.status(200).json("Sorry we can't summarize this article,Content is too short!!");
                  }else{
                      return res.status(200).json(JSON.parse(body).sm_api_content);
